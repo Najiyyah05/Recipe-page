@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: outfit;
+    line-height: 1.8;
+    font-weight: 300;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table caption{
+    margin-left: 0;
+    text-align: left;
+    padding-block:1rem ;
+}
+td, th{
+    padding: 0.5rem;
+    padding-inline: 3rem;
+    text-align: left;
+}
+tr:not(:last-child){
+    border-bottom:1px solid black;
+}
+img{
+    max-width: 92%;
+    display: block;
+    margin-inline: auto;
+    border-radius: 1em;
+
+}
+main{
+    max-width: 700px;
+    margin-block: 5em;
+    background-color: white;
+    margin-inline: auto;
+    border-radius: 1em;
+    padding-block: 2rem;
+}
+.recipe-page_text{
+    margin-inline: 2rem;
+    background-color: white;
+}
+.recipe-page_text .preparationtime{
+    background-color: rgb(249, 235, 237);
+    padding: 1rem;
+}
+.recipe-page_text .preparationtime .heading{
+    color: hsl(332, 51%, 32%);
+}
+ul, ol{
+    margin: 0;
+}
+li{
+    margin-left: 1.1rem;
+}
+.recipe-page_text section{
+    display: block;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+ol li::marker, ul::marker{
+    color: hsl(14, 45%, 36%);
+}
+@font-face {
+    font-family: outfit;
+    src: url(outfit-thin.ttf);
+}
+@font-face {
+    font-family: youngserif;
+    src: url(YoungSerif-Regular.ttf);
+}
+.recipe-page_text .subheading{
+    color: hsl(14, 45%, 36%);
+    font-family: youngserif;
+}
+.simple_omelette_recipe-heading{
+    color: hsl(24, 5%, 18%);
+    font-family: youngserif;
+}
+
+.text_under_simple_omelette_recipe{
+    font-family: outfit;
+    font-weight: 300;
+}
+span{
+    font-weight: 500;
+}
+.number{
+    color: hsl(14, 45%, 36%);
+    font-weight: 500;
+}
